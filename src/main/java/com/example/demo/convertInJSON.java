@@ -13,13 +13,13 @@ import com.google.gson.stream.JsonReader;
 
 public class convertInJSON {
 	
-	private static final String crunchifyFileLocation = "People/ListOfPeopleInJSON-Format.txt";
+	private static final String crunchifyFileLocation = "People/Objects.json";
 	private static final Gson gson = new Gson();
 	  public static void main(String[] a)  
       {  	  
 		  		  
 		   try {
-			      File myObj = new File("data.txt");
+			      File myObj = new File("names.txt");
 			      Scanner myReader = new Scanner(myObj);
 			      int j=1;
 			      while (myReader.hasNextLine()) {
